@@ -34,7 +34,8 @@ The pipeline is modeled as a state machine using **LangGraph**:
 
 ## 🛠️ Prerequisites
 
-You will need the following API keys to run this agent:
+You will need the following to run this agent:
+- **Jupyter Environment:** Google Colab, Jupyter Notebook, or VS Code with Jupyter support.
 - **Hugging Face Token:** To access the `meta-llama/Llama-3.1-8B-Instruct` model.
 - **SerpAPI Key:** To execute real-time Google Scholar searches.
 
@@ -45,15 +46,17 @@ You will need the following API keys to run this agent:
 ```
 
 ```text
-README.md generated successfully.
 
-```bash
-   git clone [https://github.com/Hammy2112/autonomous-scholarly-architect.git](https://github.com/Hammy2112/autonomous-scholarly-architect.git)
+   ```bash
+   git clone https://github.com/Hammy2112/autonomous-scholarly-architect.git
    cd autonomous-scholarly-architect
+   
 
 ```
+2. Open the notebook `Agentic_AI_Project_Final_Work_File.ipynb` in your preferred Jupyter environment (e.g., upload it to Google Colab or open it in VS Code).
 
-2. Install the required Python packages:
+```
+3. Install the required Python packages:
 ```bash
 !pip install -qU langchain-huggingface langgraph google-search-results python-docx
 
