@@ -87,6 +87,3 @@ Execute the main Python script
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-print("README.md generated successfully.")
-
