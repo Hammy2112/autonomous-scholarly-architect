@@ -1,5 +1,4 @@
-```python
-readme_content = """# 🏛️ Autonomous Scholarly Architect
+# 🏛️ Autonomous Scholarly Architect
 
 An autonomous, agentic AI pipeline built with **LangGraph**, **Llama 3.1 (8B)**, and **SerpAPI** that acts as a sophisticated research assistant. It observes your drafted text, autonomously scours Google Scholar for recent (2020-2025) open-access papers, seamlessly integrates citations into your writing, and evaluates its own work against strict academic constraints.
 
@@ -46,7 +45,7 @@ You will need the following to run this agent:
 ```bash
    git clone https://github.com/Hammy2112/autonomous-scholarly-architect.git
    cd autonomous-scholarly-architect
-   
+```   
 2. Open the notebook `Agentic_AI_Project_Final_Work_File.ipynb` in your preferred Jupyter environment (e.g., upload it to Google Colab or open it in VS Code).
 
 3. Install the required Python packages:
