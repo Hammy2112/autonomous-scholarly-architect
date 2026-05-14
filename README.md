@@ -55,7 +55,7 @@ README.md generated successfully.
 
 2. Install the required Python packages:
 ```bash
-pip install langchain-huggingface langgraph google-search-results streamlit python-docx pyngrok
+!pip install -qU langchain-huggingface langgraph google-search-results python-docx
 
 ```
 
@@ -76,14 +76,7 @@ os.environ["SERPAPI_API_KEY"] = "your_serpapi_key_here"
 2. **Prepare your document:**
 Place a Word document named `document.docx` in the root directory. This document should contain the paragraphs or claims you want the agent to research and cite.
 3. **Run the pipeline:**
-Execute the main Python script or run it via Streamlit if you are using the UI version:
-```bash
-python app.py
-# OR for Streamlit
-streamlit run app.py
-
-```
-
+Execute the main Python script 
 
 
 ## 📊 Sample Output
