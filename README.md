@@ -47,18 +47,13 @@ You will need the following to run this agent:
    git clone https://github.com/Hammy2112/autonomous-scholarly-architect.git
    cd autonomous-scholarly-architect
    
-
-
 2. Open the notebook `Agentic_AI_Project_Final_Work_File.ipynb` in your preferred Jupyter environment (e.g., upload it to Google Colab or open it in VS Code).
-
 
 3. Install the required Python packages:
 ```bash
 !pip install -qU langchain-huggingface langgraph google-search-results python-docx
 
 ```
-
-
 
 ## ⚙️ Usage
 
